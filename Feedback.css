@@ -1,0 +1,141 @@
+* {
+    color: rgb(227, 221, 221);
+}
+
+body {
+    background: black;
+}
+
+.fontfamily{
+    font-family: 'Goldman', cursive;
+}
+
+.flex{
+    display: flex;
+}
+/* navbar  */
+nav li:hover{
+    transition:  transform 0.6s;
+    transform: scale(1.05);
+    background-color: rgb(41 39 74);
+}
+.logoaml:hover{
+    transition: transform 0.6s;
+    transform: scale(1.2);
+}
+
+nav {
+    margin: -16px;
+    /* margin-left: 0;
+     margin-top: -15px; */
+    position: sticky;
+}
+
+.navbar {
+    background-color: rgb(0 16 20);
+    display: flex;
+    padding-left: 10px;
+    /* flex-direction: row-reverse; */
+    align-items: flex-end;
+
+}
+
+li {
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(227, 221, 221);
+    list-style: none;
+    padding: 12px;
+    /* margin: 20px; */
+    font-size: 21px;
+}
+ 
+.logoaml img{
+    display: relative;
+    width: 33px;
+    height: 50px;
+    padding-left: 12px;
+}
+
+/* .pyvfh{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rme;
+} */
+/* form  */
+
+form{
+    background: url(https://besthqwallpapers.com/Uploads/6-2-2020/120526/thumb2-technological-blue-grid-background-blue-technology-texture-blue-technology-background.jpg) no-repeat center center/cover;
+    /* margin-top: 130px; */
+    /* margin: auto; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    padding: 20px;
+    margin: auto;
+    flex-direction: column;
+}
+.email{
+    padding: 20px;
+    margin: auto;
+    flex-direction: column;
+}
+.feedback{
+    color: black;
+    padding: 20px;
+    margin: auto;
+    flex-direction: column;
+}
+#feedback{
+    color: rgb(118, 118, 118);
+}
+button{
+    background-color: #222a62;
+    color: rgb(118, 118, 118);
+    margin-bottom: 10px;
+}
+/* footer  */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44 90 97);
+    margin: 125px -10px -10px -10px;
+}
+
+footer ul {
+    padding: 10px;
+}
+
+.contacts b {
+    font-size: 35px;
+}
+
+#iitgnlogo img {
+    margin: auto;
+    margin-right: 20px;
+    /*margin-top: 5px; */
+    /* display: relative; */
+    height: 143px;
+    width: 143px;
+}
+
+.connectlogo {
+    height: 41px;
+    width: 41px;
+}
+
+/* .ifty{
+    justify-content: space-between;
+}  */
+.cwuh {
+    flex-direction: column;
+}
+
+.ifty {
+    justify-content: space-between;
+    margin-top: 20px;
+}

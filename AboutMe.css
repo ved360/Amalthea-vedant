@@ -1,0 +1,108 @@
+*{
+    color: rgb(227, 221, 221);
+}
+body{
+    background:black;
+}
+.fontfamily{
+    font-family: 'Goldman', cursive;
+}
+.flex{
+    display: flex; 
+}
+header{
+    margin: -16px;
+    /* margin-left: 0;
+    margin-top: -15px; */
+    position: sticky;
+}
+nav li:hover{
+    transition:  transform 0.6s;
+    transform: scale(1.05);
+    background-color: rgb(41 39 74);
+}
+.logoaml:hover{
+    transition: transform 0.6s;
+    transform: scale(1.2);
+}
+.navbar{
+    background-color: rgb(0 16 20);
+    display: flex;
+    padding-left: 10px;
+    /* flex-direction: row-reverse; */
+    align-items: flex-end;
+}
+li{
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(227, 221, 221);
+    list-style: none;
+    padding: 12px;
+    /* margin: 20px; */
+    font-size: 21px;
+}
+.logoaml img{
+    display: relative;
+    width: 33px;
+    height: 50px;
+    padding-left: 12px;
+}
+.photome{
+    border-right: 2px solid white  ;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photome img{
+    padding-right: 100px;
+    height: 600px;
+    width: 273px;
+}
+.aboutme{
+    justify-content: center;
+    font-size: 25px;
+}
+.myinfo{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+.myinfo p{
+    margin: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44 90 97);
+    margin: 125px -10px -10px -10px;
+}
+footer ul{
+    padding: 10px;
+}
+.contacts b{
+    font-size: 35px;
+}
+#iitgnlogo img{
+    margin: auto;
+    margin-right: 20px;
+    /*margin-top: 5px; */
+    /* display: relative; */
+    height: 143px;
+    width: 143px;
+}
+.connectlogo{
+    height: 41px;
+    width: 41px;
+}
+.ifty{
+    justify-content: space-between;
+}
+.cwuh{
+    flex-direction: column;
+}
+.ifty img{
+    justify-content: space-between;
+    margin-top: 20px;
+}

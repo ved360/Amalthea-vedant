@@ -1,0 +1,156 @@
+*{
+   color: rgb(227, 221, 221);
+}
+body{
+    background:black;
+}
+nav li:hover{
+    transition:  transform 0.6s;
+    transform: scale(1.05);
+    background-color: rgb(41 39 74);
+}
+.logoaml:hover{
+    transition: transform 0.6s;
+    transform: scale(1.2);
+}
+nav{
+    margin: -16px;
+    /* margin-left: 0;
+    margin-top: -15px; */
+    position: sticky;
+}
+.navbar{
+    background-color: rgb(0 16 20);
+    display: flex;
+    padding-left: 10px;
+    /* flex-direction: row-reverse; */
+    align-items: flex-end;
+    
+}
+li{
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(227, 221, 221);
+    list-style: none;
+    padding: 12px;
+    /* margin: 20px; */
+    font-size: 21px;
+}
+.logoaml img{
+    display: relative;
+    width: 33px;
+    height: 50px;
+    padding-left: 12px;
+}
+.amalthea{
+    display: flex;
+    /* position: absolute; */
+    /* top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; */
+    padding: 10px;
+    /* border: 2px solid white; */
+    background: url(https://wallpaperaccess.com/full/266636.jpg) no-repeat center center/cover;
+    /* background-position: 20% 44%; */
+    align-items: center;
+    justify-content: space-around;
+    height: 665px;
+    margin: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.name{
+    
+    font-size: 45px;
+}
+.fontfamily{
+    font-family: 'Goldman', cursive;
+}
+.flex{
+    display: flex;
+}
+.aboutaml{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.what{
+    font-size: 30px;
+    margin: auto;
+    margin-left: 65px;
+    border-right: 2px solid white;
+    padding-right: 62px;
+}
+.info{
+    font-size: 20px;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+/* .pglimpse{
+    margin: auto;
+    /* justify-content: center; */
+    /*align-items: center;
+} */
+/* .pastmem img:hover{
+    transition: transform 1.5sec;
+    transform: scale(1.5);
+} */
+.pastmem{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 130px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.pastmem img{
+    border: 2px solid #7d7d7d;
+    height: 197px;
+    width: 478px;
+    padding: 0px;
+    margin: 6px;
+}
+.pglimpse{
+    font-size: 30px;
+    margin: auto;
+    /* margin-left: 65px; */
+    /* border-right: 2px solid white; */
+    padding-right: 62px;
+
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44 90 97);
+    margin: 125px -10px -10px -10px;
+}
+footer ul{
+    padding: 10px;
+}
+.contacts b{
+    font-size: 35px;
+}
+#iitgnlogo img{
+    margin: auto;
+    margin-right: 20px;
+    /*margin-top: 5px; */
+    /* display: relative; */
+    height: 143px;
+    width: 143px;
+}
+.connectlogo{
+    height: 41px;
+    width: 41px;
+}
+/* .ifty{
+    justify-content: space-between;
+}  */
+.cwuh{
+    flex-direction: column;
+}
+.ifty{
+    justify-content: space-between;
+    margin-top: 20px;
+}
